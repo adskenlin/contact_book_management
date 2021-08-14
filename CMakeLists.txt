@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.8...3.21.1)
+project(Contact_Book_Management)
+include_directories(${CMAKE_SOURCE_DIR}/include)
+aux_source_directory(${CMAKE_SOURCE_DIR}/src DIR_SRC)
+add_executable (Contact_Book_Management ${DIR_SRC})
